@@ -12,8 +12,8 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Felines.xml</File><File>NewLeader_JasperKitty.xml</File><File>NewLeader_LitterBox.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>LR_Costa_Rica_Civ.xml</File><File>LR_Costa_Rica_Mora_Porras.xml</File><File>LR_Costa_Rica_LitterBox.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>LR_Costa_Rica_ConfigText.xml</File><File>LR_Costa_Rica_Text.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>LR_Costa_Rica_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>LR_Costa_Rica_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>LR_Costa_Rica_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>LR_Costa_Rica_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>CostaRica</AssemblyName>
     <RootNamespace>CostaRica</RootNamespace>
@@ -25,13 +25,13 @@
     <Folder Include="Artdefs\" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
-    <Content Include="NewLeader_Config.xml" />
-    <Content Include="NewLeader_ConfigText.xml" />
-    <Content Include="NewLeader_Felines.xml" />
-    <Content Include="NewLeader_Icons.xml" />
-    <Content Include="NewLeader_JasperKitty.xml" />
-    <Content Include="NewLeader_LitterBox.xml" />
-    <Content Include="NewLeader_Text.xml" />
+    <Content Include="LR_Costa_Rica_Config.xml" />
+    <Content Include="LR_Costa_Rica_ConfigText.xml" />
+    <Content Include="LR_Costa_Rica_Civ.xml" />
+    <Content Include="LR_Costa_Rica_Icons.xml" />
+    <Content Include="LR_Costa_Rica_Mora_Porras.xml" />
+    <Content Include="LR_Costa_Rica_LitterBox.xml" />
+    <Content Include="LR_Costa_Rica_Text.xml" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.dds" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.tex" />
     <None Include="Textures\LEADER_JASPER_KITTY_NEUTRAL.dds" />
