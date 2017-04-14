@@ -2,33 +2,33 @@
 <GameData>
 	<LocalizedText>
 		<Row Tag="LOC_CIVILIZATION_LR_COSTA_RICA_NAME" Language="en_US">
-			<Text>The Felines</Text>
+			<Text>Costa Rica</Text>
 		</Row>
 		
 		<Row Tag="LOC_CIVILIZATION_LR_COSTA_RICA_DESCRIPTION" Language="en_US">
-			<Text>The Majestic Felines</Text>
+			<Text>The Republic Of Costa Rica</Text>
 		</Row>
 
 		<Row Tag="LOC_CIVILIZATION_LR_COSTA_RICA_ADJECTIVE" Language="en_US">
-			<Text>Feline</Text>
+			<Text>Costa Rican</Text>
 		</Row>
 		
 		<Row Tag="LOC_LEADER_MORA_PORRAS_NAME" Language="en_US">
-			<Text>Jasper Kitty</Text>
+			<Text>Juan Rafael Mora Porras</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LR_COSTA_RICA_NAME" Language="en_US">
-			<Text>Cat like reflexes</Text>
+			<Text>TRAIT_NAME</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LR_COSTA_RICA_DESCRIPTION" Language="en_US">
-			<Text>So fast!</Text>
+			<Text>TRAIT_DESCRIPTION</Text>
 		</Row>
 		
 		<Row Tag="LOC_TRAIT_LEADER_MORA_PORRAS_NAME" Language="en_US">
-			<Text>Kitty Claws</Text>
+			<Text>LEADER_TRAIT</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_MORA_PORRAS_DESCRIPTION" Language="en_US">
-			<Text>So sharp!</Text>
+			<Text>LEADER_TRAIT_DESCRIPTION</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="en_US">
