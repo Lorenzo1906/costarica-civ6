@@ -13,7 +13,7 @@
 			<Text>Feline</Text>
 		</Row>
 		
-		<Row Tag="LOC_LEADER_JASPER_KITTY_NAME" Language="en_US">
+		<Row Tag="LOC_LEADER_MORA_PORRAS_NAME" Language="en_US">
 			<Text>Jasper Kitty</Text>
 		</Row>
 
@@ -24,10 +24,10 @@
 			<Text>So fast!</Text>
 		</Row>
 		
-		<Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_NAME" Language="en_US">
+		<Row Tag="LOC_TRAIT_LEADER_MORA_PORRAS_NAME" Language="en_US">
 			<Text>Kitty Claws</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_TRAIT_LEADER_MORA_PORRAS_DESCRIPTION" Language="en_US">
 			<Text>So sharp!</Text>
 		</Row>
 

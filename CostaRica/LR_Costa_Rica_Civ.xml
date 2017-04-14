@@ -16,7 +16,7 @@
 	</Civilizations>
 
 	<CivilizationLeaders>
-		<Row CivilizationType="CIVILIZATION_FELINE" LeaderType="LEADER_JASPER_KITTY" CapitalName="LOC_CIVLIZATION_FELINE_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_FELINE" LeaderType="LEADER_MORA_PORRAS" CapitalName="LOC_CIVLIZATION_FELINE_CITY_1" />
 	</CivilizationLeaders>
 
 	<CivilizationCitizenNames>
