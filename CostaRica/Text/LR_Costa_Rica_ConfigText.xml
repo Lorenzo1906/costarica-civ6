@@ -4,7 +4,7 @@
 		<Row Tag="LOC_CIVILIZATION_LR_COSTA_RICA_NAME" Language="en_US">
 			<Text>Costa Rica</Text>
 		</Row>
-		
+
 		<Row Tag="LOC_CIVILIZATION_LR_COSTA_RICA_DESCRIPTION" Language="en_US">
 			<Text>The Republic Of Costa Rica</Text>
 		</Row>
@@ -12,7 +12,7 @@
 		<Row Tag="LOC_CIVILIZATION_LR_COSTA_RICA_ADJECTIVE" Language="en_US">
 			<Text>Costa Rican</Text>
 		</Row>
-		
+
 		<Row Tag="LOC_LEADER_MORA_PORRAS_NAME" Language="en_US">
 			<Text>Juan Rafael Mora Porras</Text>
 		</Row>
@@ -23,7 +23,7 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LR_COSTA_RICA_DESCRIPTION" Language="en_US">
 			<Text>TRAIT_DESCRIPTION</Text>
 		</Row>
-		
+
 		<Row Tag="LOC_TRAIT_LEADER_MORA_PORRAS_NAME" Language="en_US">
 			<Text>LEADER_TRAIT</Text>
 		</Row>
@@ -34,7 +34,7 @@
 		<Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="en_US">
 			<Text>Litter Box</Text>
 		</Row>
-		
+
 		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="en_US">
 			<Text>The litter box is a unique building that only Felines get.</Text>
 		</Row>

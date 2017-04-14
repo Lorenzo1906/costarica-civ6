@@ -12,8 +12,8 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>LR_Costa_Rica_Civ.xml</File><File>LR_Costa_Rica_Mora_Porras.xml</File><File>LR_Costa_Rica_LitterBox.xml</File></UpdateDatabase><UpdateText id="Text"><File>LR_Costa_Rica_ConfigText.xml</File><File>LR_Costa_Rica_Text.xml</File></UpdateText><UpdateIcons id="Icons"><File>LR_Costa_Rica_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>LR_Costa_Rica_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>LR_Costa_Rica_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>LR_Costa_Rica_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>LR_Costa_Rica_Civ.xml</File><File>LR_Costa_Rica_Mora_Porras.xml</File><File>LR_Costa_Rica_LitterBox.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text/LR_Costa_Rica_ConfigText.xml</File><File>Text/LR_Costa_Rica_Text.xml</File></UpdateText><UpdateIcons id="Icons"><File>LR_Costa_Rica_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>LR_Costa_Rica_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/LR_Costa_Rica_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>LR_Costa_Rica_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>CostaRica</AssemblyName>
     <RootNamespace>CostaRica</RootNamespace>
@@ -22,16 +22,21 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Text\LR_Costa_Rica_ConfigText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\LR_Costa_Rica_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include="Artdefs\" />
+    <Folder Include="Text" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
     <Content Include="LR_Costa_Rica_Config.xml" />
-    <Content Include="LR_Costa_Rica_ConfigText.xml" />
     <Content Include="LR_Costa_Rica_Civ.xml" />
     <Content Include="LR_Costa_Rica_Icons.xml" />
     <Content Include="LR_Costa_Rica_Mora_Porras.xml" />
     <Content Include="LR_Costa_Rica_LitterBox.xml" />
-    <Content Include="LR_Costa_Rica_Text.xml" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.dds" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.tex" />
     <None Include="Textures\LEADER_JASPER_KITTY_NEUTRAL.dds" />

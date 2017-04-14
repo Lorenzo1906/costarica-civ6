@@ -13,7 +13,7 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MORA_PORRAS_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text>Jasper kitty likes to hide in his fort and attack when others least expect it.  He is particularly skilled at tripping people.</Text>
 		</Row>
-		
+
 		<!-- Leader specific historical text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MORA_PORRAS_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Born in 2010, Jasper kitty grew to power at a young age...</Text>
@@ -181,18 +181,18 @@
 		<Row Tag="LOC_LEADER_MORA_PORRAS_QUOTE" Language="en_US">
 			<Text>Meow.</Text>
 		</Row>
-    
-    <!-- Leader Dialog -->
-    <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MORA_PORRAS_ANY" Language="en_US">
-      <Text>Mrow! I am the mighty Jasper Kitty.  Pet me.</Text>
-    </Row>
 
-    <Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MORA_PORRAS_ANY" Language="en_US">
-      <Text>I haz a box.  Wanna see?</Text>
-    </Row>
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MORA_PORRAS_ANY" Language="en_US">
+			<Text>Mrow! I am the mighty Jasper Kitty.  Pet me.</Text>
+		</Row>
 
-    <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MORA_PORRAS_ANY" Language="en_US">
-      <Text>Let me rub my face on all of your stuff so that it will be mine.</Text>
-    </Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MORA_PORRAS_ANY" Language="en_US">
+			<Text>I haz a box.  Wanna see?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MORA_PORRAS_ANY" Language="en_US">
+			<Text>Let me rub my face on all of your stuff so that it will be mine.</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
