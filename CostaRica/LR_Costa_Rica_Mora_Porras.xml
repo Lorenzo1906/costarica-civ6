@@ -13,7 +13,31 @@
 	</Leaders>
 
 	<LeaderQuotes>
-		<Row LeaderType="LEADER_MORA_PORRAS" Quote="LOC_LEADER_MORA_PORRAS_QUOTE"/>
+		<Row LeaderType="LEADER_MORA_PORRAS" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_LEADER_MORA_PORRAS_QUOTE"/>
 	</LeaderQuotes>
-	
+
+	<FavoredReligions>
+		<Row LeaderType="LEADER_MORA_PORRAS" ReligionType="RELIGION_CATHOLICISM"/>
+	</FavoredReligions>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LR_COSTA_RICA_PRIMARY</Type>
+			<Color>206,17,38,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LR_COSTA_RICA_SECONDARY</Type>
+			<Color>0,43,127,255</Color>
+		</Row>
+	</Colors>
+
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_MORA_PORRAS</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LR_COSTA_RICA_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LR_COSTA_RICA_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
 </GameData>

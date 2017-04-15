@@ -1,27 +1,10 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
 		<!-- Pedia text (historical context) about the new building. -->
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LITTER_BOX_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>I'm not going to write the historical context about the litter box...</Text>
-		</Row>
-
-		<!-- Leader specific pedia text. -->
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MORA_PORRAS_CHAPTER_CAPSULE_BODY" Language="en_US">
-			<Text>Jasper kitty is a charismatic and typically friendly feline.  He prefers diplomatic trades that involve food.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MORA_PORRAS_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>Jasper kitty likes to hide in his fort and attack when others least expect it.  He is particularly skilled at tripping people.</Text>
-		</Row>
-
-		<!-- Leader specific historical text. -->
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MORA_PORRAS_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Born in 2010, Jasper kitty grew to power at a young age...</Text>
-		</Row>
-
-		<!-- Civilization specific historical text. -->
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LR_COSTA_RICA_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>The felines have a rich history, but are too lazy to write about it.</Text>
 		</Row>
 
 		<!-- Civlization Citizen Names -->
@@ -167,19 +150,6 @@
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_COSTA_RICAN_CITY_16" Language="en_US">
 			<Text>Tejar</Text>
-		</Row>
-
-		<!--Civilization Factoids -->
-		<Row Tag="LOC_CIVINFO_BINOMIAL_NAME" Language="en_US">
-			<Text>Binomial Name</Text>
-		</Row>
-		<Row Tag="LOC_CIVINFO_FELIS_CATUS" Language="en_US">
-			<Text>Felis catus</Text>
-		</Row>
-
-		<!-- Leader Quotes -->
-		<Row Tag="LOC_LEADER_MORA_PORRAS_QUOTE" Language="en_US">
-			<Text>Meow.</Text>
 		</Row>
 
 		<!-- Leader Dialog -->

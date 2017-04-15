@@ -54,7 +54,10 @@
 	</CivilizationCitizenNames>
 
 	<CivilizationInfo>
-		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" Header="LOC_CIVINFO_BINOMIAL_NAME" Caption="LOC_CIVINFO_FELIS_CATUS" />
+		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_LR_COSTA_RICA_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_LR_COSTA_RICA_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_LR_COSTA_RICA_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_LR_COSTA_RICA_CAPITAL" SortIndex="40"/>
 	</CivilizationInfo>
 
 	<CivilizationTraits>
