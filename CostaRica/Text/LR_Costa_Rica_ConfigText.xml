@@ -34,5 +34,14 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME">
 			<Text>Costa Rican unique improvement: Rainforest Resort</Text>
 		</Row>
+
+		<Row Tag="LOC_UNIT_LR_ENVIROMENTALIST_NAME" Language="en_US">
+			<Text>Environmentalist</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LR_ENVIROMENTALIST_DESCRIPTION" Language="en_US">
+			<Text>Can create two National Parks instead of the regular one of the Naturalist who replaces</Text>
+		</Row>
+
 	</LocalizedText>
 </GameData>

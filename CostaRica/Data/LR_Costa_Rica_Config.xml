@@ -23,11 +23,21 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_LR_COSTA_RICA</CivilizationType>
 			<LeaderType>LEADER_MORA_PORRAS</LeaderType>
+			<Type>UNIT_LR_ENVIROMENTALIST</Type>
+			<Name>LOC_UNIT_LR_ENVIROMENTALIST_NAME</Name>
+			<Description>LOC_UNIT_LR_ENVIROMENTALIST_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_NATURALIST</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_LR_COSTA_RICA</CivilizationType>
+			<LeaderType>LEADER_MORA_PORRAS</LeaderType>
 			<Type>IMPROVEMENT_LR_RAINFOREST_RESORT</Type>
 			<Name>LOC_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME</Name>
 			<Description>LOC_LR_RAINFOREST_RESORT_DESCRIPTION</Description>
 			<Icon>ICON_IMPROVEMENT_BEACH_RESORT</Icon>
-			<SortIndex>10</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 	</PlayerItems>
 </GameData>

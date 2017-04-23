@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_LR_ENVIROMENTALIST" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_LR_ENVIROMENTALIST" AiType="UNITAI_EXPLORE"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_LR_ENVIROMENTALIST" ReplacesUnitType="UNIT_NATURALIST"/>
+	</UnitReplaces>
+	<TypeTags>
+		<Row Type="UNIT_LR_ENVIROMENTALIST" Tag="CLASS_LANDCIVILIAN"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_LR_ENVIROMENTALIST" 
+			 BaseMoves="4" 
+			 Cost="800" 
+			 AdvisorType="ADVISOR_CONQUEST"
+			 BaseSightRange="3" 
+			 ZoneOfControl="true" 
+			 CanCapture="false"
+			 CanRetreatWhenCaptured="true"
+			 CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES"
+			 CostProgressionParam1="100"
+			 InitialLevel="1"
+			 PrereqCivic="CIVIC_CONSERVATION"
+			 Domain="DOMAIN_LAND" 
+			 FormationClass="FORMATION_CLASS_CIVILIAN"
+			 Name="LOC_UNIT_LR_ENVIROMENTALIST_NAME" 
+			 Description="LOC_UNIT_LR_ENVIROMENTALIST_DESCRIPTION" 
+			 PurchaseYield="YIELD_FAITH"
+			 MustPurchase="true"
+			 PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS"
+			 ParkCharges="2"
+			 Maintenance="0"
+			 Combat="0" 
+			 TraitType="TRAIT_CIVILIZATION_UNIT_LR_ENVIROMENTALIST"/>
+	</Units>
+</GameData>
