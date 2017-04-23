@@ -23,10 +23,10 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_LR_COSTA_RICA</CivilizationType>
 			<LeaderType>LEADER_MORA_PORRAS</LeaderType>
-			<Type>BUILDING_LITTER_BOX</Type>
-			<Name>LOC_BUILDING_LITTER_BOX_NAME</Name>
-			<Description>LOC_BUILDING_LITTER_BOX_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_LITTER_BOX</Icon>
+			<Type>LR_BUILDING_PUBLIC_UNIVERSITY</Type>
+			<Name>LOC_LR_BUILDING_PUBLIC_UNIVERSITY_NAME</Name>
+			<Description>LOC_LR_BUILDING_PUBLIC_UNIVERSITY_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_UNIVERSITY</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
 	</PlayerItems>

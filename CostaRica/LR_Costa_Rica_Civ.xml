@@ -2,7 +2,6 @@
 <GameData>
 	<Types>
 		<Row Type="CIVILIZATION_LR_COSTA_RICA" Kind="KIND_CIVILIZATION" />
-		<Row Type="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" Kind="KIND_TRAIT" />
 	</Types>
 	
 	<Civilizations>
@@ -59,14 +58,6 @@
 		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_LR_COSTA_RICA_POPULATION" SortIndex="30"/>
 		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_LR_COSTA_RICA_CAPITAL" SortIndex="40"/>
 	</CivilizationInfo>
-
-	<CivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" />
-	</CivilizationTraits>
-
-	<Traits>
-		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER" />
-	</Traits>
 
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" CityName="LOC_CIVLIZATION_COSTA_RICAN_CITY_1" />

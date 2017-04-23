@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LR_BUILDING_PUBLIC_UNIVERSITY" Kind="KIND_BUILDING" />
+	</Types>
+	<Buildings>
+		<Row BuildingType="LR_BUILDING_PUBLIC_UNIVERSITY" 
+			 Name="LOC_LR_BUILDING_PUBLIC_UNIVERSITY_NAME" 
+			 Description="LOC_LR_BUILDING_PUBLIC_UNIVERSITY_DESCRIPTION" 
+			 PrereqTech="TECH_EDUCATION" 
+			 PrereqDistrict="DISTRICT_CAMPUS" 
+			 PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_TECHNOLOGY"
+			 Maintenance="2" CitizenSlots="1" Housing="1"/>
+
+	</Buildings>
+	<Building_YieldChanges>
+		<Row BuildingType="LR_BUILDING_PUBLIC_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="6"/>
+		<Row BuildingType="LR_BUILDING_PUBLIC_UNIVERSITY" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="LR_BUILDING_PUBLIC_UNIVERSITY" ReplacesBuildingType="BUILDING_UNIVERSITY"/>
+	</BuildingReplaces>
+	<BuildingPrereqs>
+		<Row CivUniqueBuildingType="LR_BUILDING_PUBLIC_UNIVERSITY" ReplacesBuildingType="BUILDING_LIBRARY"/>
+	</BuildingPrereqs>
+	<Building_GreatPersonPoints>
+		<Row CivUniqueBuildingType="LR_BUILDING_PUBLIC_UNIVERSITY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+</GameData>

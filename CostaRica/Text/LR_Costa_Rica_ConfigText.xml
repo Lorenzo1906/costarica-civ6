@@ -23,12 +23,12 @@
 			<Text>Units receive a +5 [ICON_Strength] combat Strength bonus on their home continent and each [ICON_Science] science building also provides bonus [ICON_Culture] culture</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="en_US">
-			<Text>Litter Box</Text>
+		<Row Tag="LOC_LR_BUILDING_PUBLIC_UNIVERSITY_NAME" Language="en_US">
+			<Text>Public University</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="en_US">
-			<Text>The litter box is a unique building that only Felines get.</Text>
+		<Row Tag="LOC_LR_BUILDING_PUBLIC_UNIVERSITY_DESCRIPTION" Language="en_US">
+			<Text>+6 [ICON_Science] Gold and +2 [ICON_Culture] Culture in each tile.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>
