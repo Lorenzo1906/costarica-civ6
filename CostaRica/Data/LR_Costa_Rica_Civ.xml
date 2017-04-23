@@ -7,13 +7,12 @@
 	</Types>
 
 	<Civilizations>
-		<Row>
-			<CivilizationType>CIVILIZATION_LR_COSTA_RICA</CivilizationType>
-			<Name>LOC_CIVILIZATION_LR_COSTA_RICA_NAME</Name>
-			<Description>LOC_CIVILIZATION_LR_COSTA_RICA_DESCRIPTION</Description>
-			<Adjective>LOC_CIVILIZATION_LR_COSTA_RICA_ADJECTIVE</Adjective>
-			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
-		</Row>
+		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" 
+			 Name="LOC_CIVILIZATION_LR_COSTA_RICA_NAME" 
+			 Description="LOC_CIVILIZATION_LR_COSTA_RICA_DESCRIPTION" 
+			 Adjective="LOC_CIVILIZATION_LR_COSTA_RICA_ADJECTIVE" 
+			 StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" 
+			 RandomCityNameDepth="1" Ethnicity="ETHNICITY_EURO"/>
 	</Civilizations>
 
 	<CivilizationLeaders>
