@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="IMPROVEMENT_LR_RAINFOREST_RESORT" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_LR_RAINFOREST_RESORT"
+			 Name="LOC_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME"
+			 Description="LOC_LR_RAINFOREST_RESORT_DESCRIPTION"
+			 Icon="ICON_IMPROVEMENT_BEACH_RESORT"
+			 PlunderType="PLUNDER_GOLD"
+			 PlunderAmount="100" Buildable="true"
+			 PrereqTech="TECH_RADIO" Housing="0" TilesRequired="1"  
+			 MinimumAppeal="4" YieldFromAppeal="YIELD_GOLD"
+			 TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT"/>
+	</Improvements>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_LR_RAINFOREST_RESORT" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_LR_RAINFOREST_RESORT" TourismSource="TOURISMSOURCE_APPEAL" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_LR_RAINFOREST_RESORT" FeatureType="FEATURE_JUNGLE"/>
+	</Improvement_ValidFeatures>
+</GameData>

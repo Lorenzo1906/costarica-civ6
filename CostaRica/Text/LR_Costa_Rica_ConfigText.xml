@@ -23,12 +23,16 @@
 			<Text>Units receive a +5 [ICON_Strength] combat Strength bonus on their home continent and each [ICON_Science] science building also provides bonus [ICON_Culture] culture</Text>
 		</Row>
 
-		<Row Tag="LOC_LR_BUILDING_PUBLIC_UNIVERSITY_NAME" Language="en_US">
-			<Text>Public University</Text>
+		<Row Tag="LOC_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME" Language="en_US">
+			<Text>Rainforest Resort</Text>
 		</Row>
 
-		<Row Tag="LOC_LR_BUILDING_PUBLIC_UNIVERSITY_DESCRIPTION" Language="en_US">
-			<Text>+6 [ICON_Science] Gold and +2 [ICON_Culture] Culture in each tile.</Text>
+		<Row Tag="LOC_LR_RAINFOREST_RESORT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct an Rainforest Resort, unique to Costa Rica.[NEWLINE][NEWLINE] [ICON_Tourism] Tourism equal to the tile's Appeal x 2 [ICON_Gold] Gold equal to the tile's Appeal. Can only be built in Rainforest tiles.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME">
+			<Text>Costa Rican unique improvement: Rainforest Resort</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

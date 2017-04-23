@@ -2,8 +2,9 @@
 <GameData>
 	<Types>
 		<Row Type="CIVILIZATION_LR_COSTA_RICA" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT" Kind="KIND_TRAIT"/>
 	</Types>
-	
+
 	<Civilizations>
 		<Row>
 			<CivilizationType>CIVILIZATION_LR_COSTA_RICA</CivilizationType>
@@ -17,7 +18,15 @@
 	<CivilizationLeaders>
 		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" LeaderType="LEADER_MORA_PORRAS" CapitalName="LOC_CIVLIZATION_COSTA_RICAN_CITY_1" />
 	</CivilizationLeaders>
+	
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT"/>
+	</CivilizationTraits>
 
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT" Name="LOC_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME"/>
+	</Traits>
+	
 	<CivilizationCitizenNames>
 		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" CitizenName="LOC_CITIZEN_COSTA_RICAN_MALE_1" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" CitizenName="LOC_CITIZEN_COSTA_RICAN_MALE_2" Female="0"/>
@@ -77,5 +86,5 @@
 		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" CityName="LOC_CIVLIZATION_COSTA_RICAN_CITY_15" />
 		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" CityName="LOC_CIVLIZATION_COSTA_RICAN_CITY_16" />
 	</CityNames>
-	
+
 </GameData>
