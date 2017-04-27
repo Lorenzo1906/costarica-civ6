@@ -13,7 +13,7 @@
 			<Text>Green Tourism</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LR_COSTA_RICA_DESCRIPTION" Language="en_US">
-			<Text>Rainforest tiles provide +2 appeal. +20% [ICON_Production] production towards buildings from the Campus District</Text>
+			<Text>Improved appeal of rainforesta tiles and give +20% [ICON_Production] production towards buildings from the Campus District</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_MORA_PORRAS_NAME" Language="en_US">
@@ -28,7 +28,7 @@
 		</Row>
 
 		<Row Tag="LOC_LR_RAINFOREST_RESORT_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct an Rainforest Resort, unique to Costa Rica.[NEWLINE][NEWLINE] [ICON_Tourism] Tourism equal to the tile's Appeal x 2 [ICON_Gold] Gold equal to the tile's Appeal. Can only be built in Rainforest tiles.</Text>
+			<Text>Unlocks the Builder ability to construct an Rainforest Resort, unique to Costa Rica. [ICON_Tourism] Tourism equal to the tile's Appeal x 2 [ICON_Gold] Gold equal to the tile's Appeal. Can only be built in Rainforest tiles.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME">

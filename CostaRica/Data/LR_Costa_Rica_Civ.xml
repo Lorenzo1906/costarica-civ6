@@ -4,6 +4,7 @@
 		<Row Type="CIVILIZATION_LR_COSTA_RICA" Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_CIVILIZATION_UNIT_LR_ENVIROMENTALIST" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_GREEN_TOURISM" Kind="KIND_TRAIT"/>
 	</Types>
 
 	<Civilizations>
@@ -22,11 +23,21 @@
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT"/>
 		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" TraitType="TRAIT_CIVILIZATION_UNIT_LR_ENVIROMENTALIST"/>
+		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" TraitType="TRAIT_CIVILIZATION_GREEN_TOURISM"/>
 	</CivilizationTraits>
 
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" FeatureType="FEATURE_JUNGLE" Tier="3"/>
+	</StartBiasFeatures>
+
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" Tier="3"/>
+	</StartBiasRivers>
+	
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT" Name="LOC_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_LR_ENVIROMENTALIST" Name="LOC_UNIT_LR_ENVIROMENTALIST_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GREEN_TOURISM" Name="LOC_TRAIT_CIVILIZATION_LR_COSTA_RICA_NAME" Description="LOC_TRAIT_CIVILIZATION_LR_COSTA_RICA_DESCRIPTION"/>
 	</Traits>
 	
 	<CivilizationCitizenNames>
@@ -89,4 +100,33 @@
 		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" CityName="LOC_CIVLIZATION_COSTA_RICAN_CITY_16" />
 	</CityNames>
 
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREEN_TOURISM</TraitType>
+			<ModifierId>TRAIT_LR_GREEN_TOURISM</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LR_GREEN_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_APPEAL</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_NATIONAL_PARK_REQUREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<ModifierId>TRAIT_LR_GREEN_TOURISM</ModifierId>
+		<Name>Amount</Name>
+		<Type>ARGTYPE_IDENTITY</Type>
+		<Value>6</Value>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="CITY_HAS_JUNGLE_REQUREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row RequirementSetId="CITY_HAS_JUNGLE_REQUREMENTS" RequirementId="PLOT_IS_JUNGLE_REQUIREMENT" />
+	</RequirementSetRequirements>
 </GameData>
