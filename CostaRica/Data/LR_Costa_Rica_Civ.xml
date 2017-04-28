@@ -13,7 +13,7 @@
 			 Description="LOC_CIVILIZATION_LR_COSTA_RICA_DESCRIPTION" 
 			 Adjective="LOC_CIVILIZATION_LR_COSTA_RICA_ADJECTIVE" 
 			 StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" 
-			 RandomCityNameDepth="1" Ethnicity="ETHNICITY_EURO"/>
+			 RandomCityNameDepth="10" Ethnicity="ETHNICITY_EURO"/>
 	</Civilizations>
 
 	<CivilizationLeaders>
@@ -30,10 +30,6 @@
 		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" FeatureType="FEATURE_JUNGLE" Tier="3"/>
 	</StartBiasFeatures>
 
-	<StartBiasRivers>
-		<Row CivilizationType="CIVILIZATION_LR_COSTA_RICA" Tier="3"/>
-	</StartBiasRivers>
-	
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT" Name="LOC_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_LR_ENVIROMENTALIST" Name="LOC_UNIT_LR_ENVIROMENTALIST_NAME"/>
@@ -105,6 +101,22 @@
 			<TraitType>TRAIT_CIVILIZATION_GREEN_TOURISM</TraitType>
 			<ModifierId>TRAIT_LR_GREEN_TOURISM</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREEN_TOURISM</TraitType>
+			<ModifierId>TRAIT_LR_BUILDING_LIBRARY_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREEN_TOURISM</TraitType>
+			<ModifierId>TRAIT_LR_BUILDING_UNIVERSITY_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREEN_TOURISM</TraitType>
+			<ModifierId>TRAIT_LR_BUILDING_MADRASA_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREEN_TOURISM</TraitType>
+			<ModifierId>TRAIT_LR_BUILDING_RESEARCH_LAB_PRODUCTION</ModifierId>
+		</Row>
 	</TraitModifiers>
 
 	<Modifiers>
@@ -113,13 +125,62 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_APPEAL</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_NATIONAL_PARK_REQUREMENTS</SubjectRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_LR_BUILDING_LIBRARY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LR_BUILDING_UNIVERSITY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LR_BUILDING_MADRASA_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LR_BUILDING_RESEARCH_LAB_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LR_BUILDING_LIBRARY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LR_BUILDING_UNIVERSITY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LR_BUILDING_MADRASA_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LR_BUILDING_RESEARCH_LAB_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
 	</Modifiers>
 
 	<ModifierArguments>
-		<ModifierId>TRAIT_LR_GREEN_TOURISM</ModifierId>
-		<Name>Amount</Name>
-		<Type>ARGTYPE_IDENTITY</Type>
-		<Value>6</Value>
+		<Row ModifierId="TRAIT_LR_GREEN_TOURISM" Name="Amount" Type="ARGTYPE_IDENTITY" Value="6"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_LIBRARY_PRODUCTION" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_LIBRARY"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_LIBRARY_PRODUCTION" Name="Amount" Type="ARGTYPE_IDENTITY" Value="20"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_UNIVERSITY_PRODUCTION" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_UNIVERSITY"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_UNIVERSITY_PRODUCTION" Name="Amount" Type="ARGTYPE_IDENTITY" Value="20"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_MADRASA_PRODUCTION" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_MADRASA"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_MADRASA_PRODUCTION" Name="Amount" Type="ARGTYPE_IDENTITY" Value="20"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_RESEARCH_LAB_PRODUCTION" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_RESEARCH_LAB"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_RESEARCH_LAB_PRODUCTION" Name="Amount" Type="ARGTYPE_IDENTITY" Value="20"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_LIBRARY_CULTURE" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_LIBRARY"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_LIBRARY_CULTURE" Name="YieldType" Type="ARGTYPE_IDENTITY" Value="YIELD_CULTURE"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_LIBRARY_CULTURE" Name="Amount" Type="ARGTYPE_IDENTITY" Value="2"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_UNIVERSITY_CULTURE" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_UNIVERSITY"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_UNIVERSITY_CULTURE" Name="YieldType" Type="ARGTYPE_IDENTITY" Value="YIELD_CULTURE"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_UNIVERSITY_CULTURE" Name="Amount" Type="ARGTYPE_IDENTITY" Value="2"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_MADRASA_CULTURE" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_MADRASA"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_MADRASA_CULTURE" Name="YieldType" Type="ARGTYPE_IDENTITY" Value="YIELD_CULTURE"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_MADRASA_CULTURE" Name="Amount" Type="ARGTYPE_IDENTITY" Value="2"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_RESEARCH_LAB_CULTURE" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_RESEARCH_LAB"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_RESEARCH_LAB_CULTURE" Name="YieldType" Type="ARGTYPE_IDENTITY" Value="YIELD_CULTURE"/>
+		<Row ModifierId="TRAIT_LR_BUILDING_RESEARCH_LAB_CULTURE" Name="Amount" Type="ARGTYPE_IDENTITY" Value="2"/>
 	</ModifierArguments>
 
 	<RequirementSets>

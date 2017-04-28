@@ -2,6 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="LEADER_MORA_PORRAS" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_LR_NATIONAL_CAMPAIGN" Kind="KIND_TRAIT"/>
 	</Types>
 
 	<Leaders>
@@ -20,6 +21,36 @@
 		<Row LeaderType="LEADER_MORA_PORRAS" ReligionType="RELIGION_CATHOLICISM"/>
 	</FavoredReligions>
 
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MORA_PORRAS" TraitType="TRAIT_LEADER_LR_NATIONAL_CAMPAIGN"/>
+	</LeaderTraits>
+	
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_LR_NATIONAL_CAMPAIGN" Name="LOC_TRAIT_LEADER_MORA_PORRAS_NAME" Description="LOC_TRAIT_LEADER_MORA_PORRAS_DESCRIPTION"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_LR_NATIONAL_CAMPAIGN</TraitType>
+			<ModifierId>TRAIT_COMBAT_BONUS_HOME_TERRITORY</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS_HOME_TERRITORY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS_HOME_TERRITORY</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>COMBAT_BONUS_HOME_CONTINENT_MODIFIER</Value>
+		</Row>
+	</ModifierArguments>
+		
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_LR_COSTA_RICA_PRIMARY</Type>

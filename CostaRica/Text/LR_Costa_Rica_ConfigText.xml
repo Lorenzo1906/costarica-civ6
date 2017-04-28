@@ -13,14 +13,14 @@
 			<Text>Green Tourism</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LR_COSTA_RICA_DESCRIPTION" Language="en_US">
-			<Text>Improved appeal of rainforesta tiles and give +20% [ICON_Production] production towards buildings from the Campus District</Text>
+			<Text>Improved appeal of rainforesta tiles, also give +20% [ICON_Production] production towards buildings from the Campus District and each [ICON_Science] science building also provides bonus [ICON_Culture] culture</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_MORA_PORRAS_NAME" Language="en_US">
 			<Text>National Campaign</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_MORA_PORRAS_DESCRIPTION" Language="en_US">
-			<Text>Units receive a +5 [ICON_Strength] combat Strength bonus on their home continent and each [ICON_Science] science building also provides bonus [ICON_Culture] culture</Text>
+			<Text>Units receive a +5 [ICON_Strength] combat Strength bonus on their home continent.</Text>
 		</Row>
 
 		<Row Tag="LOC_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME" Language="en_US">
