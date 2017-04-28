@@ -3,6 +3,7 @@
 	<Types>
 		<Row Type="LEADER_MORA_PORRAS" Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_LR_NATIONAL_CAMPAIGN" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_LR_GOOD_NEIGHBOR" Kind="KIND_TRAIT"/>
 	</Types>
 
 	<Leaders>
@@ -27,12 +28,21 @@
 	
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_LR_NATIONAL_CAMPAIGN" Name="LOC_TRAIT_LEADER_MORA_PORRAS_NAME" Description="LOC_TRAIT_LEADER_MORA_PORRAS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_LR_GOOD_NEIGHBOR" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
 	</Traits>
 
 	<TraitModifiers>
 		<Row>
 			<TraitType>TRAIT_LEADER_LR_NATIONAL_CAMPAIGN</TraitType>
 			<ModifierId>TRAIT_COMBAT_BONUS_HOME_TERRITORY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_LR_GOOD_NEIGHBOR</TraitType>
+			<ModifierId>AGENDA_CONTINENT_ATTACKED</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_LR_GOOD_NEIGHBOR</TraitType>
+			<ModifierId>AGENDA_CONTINENT_PEACEFUL</ModifierId>
 		</Row>
 	</TraitModifiers>
 
@@ -50,7 +60,26 @@
 			<Value>COMBAT_BONUS_HOME_CONTINENT_MODIFIER</Value>
 		</Row>
 	</ModifierArguments>
-		
+
+	<Agendas>
+		<Row AgendaType="AGENDA_LR_GOOD_NEIGHBOR" Name="LOC_AGENDA_LR_GOOD_NEIGHBOR_NAME" Description="LOC_AGENDA_LR_GOOD_NEIGHBOR_DESCRIPTION"/>
+	</Agendas>
+	
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_MORA_PORRAS" AgendaType="AGENDA_LR_GOOD_NEIGHBOR"/>
+	</HistoricalAgendas>
+	
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_LR_GOOD_NEIGHBOR" TraitType="TRAIT_AGENDA_LR_GOOD_NEIGHBOR"/>
+	</AgendaTraits>
+	
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_LR_GOOD_NEIGHBOR" AgendaTwo="AGENDA_CITY_STATE_ALLY"/>
+		<Row AgendaOne="AGENDA_LR_GOOD_NEIGHBOR" AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
+		<Row AgendaOne="AGENDA_LR_GOOD_NEIGHBOR" AgendaTwo="AGENDA_CULTURED"/>
+		<Row AgendaOne="AGENDA_LR_GOOD_NEIGHBOR" AgendaTwo="AGENDA_TECHNOPHILE"/>
+	</ExclusiveAgendas>
+	
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_LR_COSTA_RICA_PRIMARY</Type>

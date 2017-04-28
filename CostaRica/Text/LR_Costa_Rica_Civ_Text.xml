@@ -175,11 +175,11 @@
 			<Text>San José</Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_LR_RAINFOREST_RESORT_CHAPTER_HISTORY_PARA_1">
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_LR_RAINFOREST_RESORT_CHAPTER_HISTORY_PARA_1"  Language="en_US">
 			<Text>A rainforest resort is a hotel or accommodation that has made important environmental improvements to its structure in order to minimize its impact on the environment. The basic definition of a hotel is an environmentally responsible lodging that follows the practices of green living. These hotels have to be certified green by an independent third-party or by the state they are located in. Traditionally, these hotels were mostly presented as Eco Lodges because of their location, often in jungles, and their design inspired by the use of traditional building methods applied by skilled local craftsmen in areas, such as Costa Rica and Indonesia. Today, eco hotels also include properties in less "natural" locations that have invested in improving their "green" credentials.</Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LR_ENVIROMENTALIST_CHAPTER_HISTORY_PARA_1">
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LR_ENVIROMENTALIST_CHAPTER_HISTORY_PARA_1"  Language="en_US">
 			<Text>An environmentalist is a supporter of the goals of the environmental movement, "a political and ethical movement that seeks to improve and protect the quality of the natural environment through changes to environmentally harmful human activities". An environmentalist is engaged in or believes in the philosophy of environmentalism. Environmentalists are sometimes referred to using informal or derogatory terms such as "greenie" and "tree-hugger".</Text>
 		</Row>
 	</LocalizedText>

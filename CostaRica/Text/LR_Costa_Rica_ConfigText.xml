@@ -31,17 +31,28 @@
 			<Text>Unlocks the Builder ability to construct an Rainforest Resort, unique to Costa Rica. [ICON_Tourism] Tourism equal to the tile's Appeal x 2 [ICON_Gold] Gold equal to the tile's Appeal. Can only be built in Rainforest tiles.</Text>
 		</Row>
 
-		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME" Language="en_US">
 			<Text>Costa Rican unique improvement: Rainforest Resort</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_LR_ENVIROMENTALIST_NAME" Language="en_US">
+
+	</LocalizedText>
+
+	<BaseGameText>
+		<Row Tag="LOC_AGENDA_LR_GOOD_NEIGHBOR_NAME">
+			<Text>Good Neighbor</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_LR_GOOD_NEIGHBOR_DESCRIPTION">
+			<Text>Likes peaceful civilizations that have a city on his home continent. Hates civilizations starting wars against a city-state or civilization based on his continent.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LR_ENVIROMENTALIST_NAME">
 			<Text>Environmentalist</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_LR_ENVIROMENTALIST_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_UNIT_LR_ENVIROMENTALIST_DESCRIPTION">
 			<Text>Can create two National Parks instead of the regular one of the Naturalist who replaces</Text>
 		</Row>
-
-	</LocalizedText>
+	</BaseGameText>
 </GameData>

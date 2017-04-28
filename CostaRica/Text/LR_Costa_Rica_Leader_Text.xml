@@ -19,7 +19,6 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MORA_PORRAS_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text>Mora rallied the Costa Ricans and much of Central America in a war of resistance against the filibusterer William Walker. The conflict transformed Mora’s troubled rule into popular acclaim, but when he tried to extend his rule for a third term in 1859, his enemies and the generals removed him. When, in I860, he attempted to return to power at the head of an invading column, government forces under President José Maria Montealegre captured and executed him.</Text>
 		</Row>
-
 		<Row Tag="LOC_LOADING_INFO_LEADER_MORA_PORRAS">
 			<Text>Pious Jadwiga, praise be to the glory of God, the earth, and Poland! Most holy King, you will show your people the truth and the light, and they will move beyond to spread the word to others. Protected by great winged warriors, you will rise to meet any challenge you face with a devout grace unmatched by any other.</Text>
 		</Row>
@@ -121,7 +120,5 @@
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
 			<Text>Vielen Dank!//TODO</Text>
 		</Row>
-
-
 	</LocalizedText>
 </GameData>
