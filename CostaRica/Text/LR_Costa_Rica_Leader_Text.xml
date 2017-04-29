@@ -19,106 +19,11 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MORA_PORRAS_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text>Mora rallied the Costa Ricans and much of Central America in a war of resistance against the filibusterer William Walker. The conflict transformed Mora’s troubled rule into popular acclaim, but when he tried to extend his rule for a third term in 1859, his enemies and the generals removed him. When, in I860, he attempted to return to power at the head of an invading column, government forces under President José Maria Montealegre captured and executed him.</Text>
 		</Row>
-		<Row Tag="LOC_LOADING_INFO_LEADER_MORA_PORRAS">
-			<Text>Pious Jadwiga, praise be to the glory of God, the earth, and Poland! Most holy King, you will show your people the truth and the light, and they will move beyond to spread the word to others. Protected by great winged warriors, you will rise to meet any challenge you face with a devout grace unmatched by any other.</Text>
-		</Row>
-
-		<!-- Diplo Text -->
-		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>We are pleased to accept your friendship.</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>We can't accept your offer at this time.</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>You are a worthwhile leader. Will you accept friendship?</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>Excelente!</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>FRIENDSHIP REJECT</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>You will face a determined enemy, we will not relent!  Our cause is just, our people ready, prepare for Totaler Krieg! - //TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>We suspect you have come under the influence of Fascists!  We can not abide this filth... prepare for Totaler Krieg!//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>We will display your gifts proudly in the Palacio Nacional.</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>We suspect your delegation have been influenced by Fascists!  We can not abide such filth in Austria...//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>Our delegation would like to present you with some fine art we aquired recently from Hungarian Dealers...//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>We all live under the same sky, but we don't all have the same horizon.//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>We all live under the same sky, but we don't all have the same horizon.(Denounces You).//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>I am Alexander Van der Bellen. President of Austria.//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>I would like to invite you to be our guest at the Schloss Schönbrunn. There will be apple strudel, folk bands and lots of hors d'oeuvres...//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>I accept your proposal.</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>I would like to tell you the history of our great capital. Will you share yours?//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_GREETING_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>We all live under the same sky, but we don't all have the same horizon.//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>We all live under the same sky, but we don't all have the same horizon.//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_KUDO_LEADER_LEADER_MORA_PORRAS_REASON_ANY" Language="en_US">
-			<Text>In view of the fact that God limited the intelligence of man, it seems unfair that He did not also limit his stupidity..//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>History is the sum total of things that could have been avoided..//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_WARNING_LEADER_LEADER_MORA_PORRAS_REASON_ANY" Language="en_US">
-			<Text>In view of the fact that God limited the intelligence of man, it seems unfair that He did not also limit his stupidity.//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>Would you like to form a pact?//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>History is the sum total of things that could have been avoided.//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>Nein! Das gibt es nicht!//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>History is the sum total of things that could have been avoided.//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>Words build bridges into unexplored regions.//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>In view of the fact that God limited the intelligence of man, it seems unfair that He did not also limit his stupidity.//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>Words build bridges into unexplored regions... will you open your borders?//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>Think a thousand times before taking a decision But - After taking decison never turn back even if you get Thousand difficulties!!  Remove your forces from the borders of this fair land... or else!.//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text> If you win, you need not have to explain...If you lose, you should not be there to explain!//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>History is the sum total of things that could have been avoided.//TODO</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_LEADER_MORA_PORRAS_ANY" Language="en_US">
-			<Text>Vielen Dank!//TODO</Text>
-		</Row>
 	</LocalizedText>
+
+	<BaseGameText>
+		<Row Tag="LOC_LOADING_INFO_LEADER_MORA_PORRAS">
+			<Text>President Juan Rafael Mora Porras, you will lead Costa Rica through one of the most difficult time of the history of the country, and your people will emerge all the stronger for it. You will unite old nemesis against the same cause, and you will show  your leadership on these dark times.</Text>
+		</Row>
+	</BaseGameText>
 </GameData>

@@ -122,8 +122,8 @@
 	<Modifiers>
 		<Row>
 			<ModifierId>TRAIT_LR_GREEN_TOURISM</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_APPEAL</ModifierType>
-			<SubjectRequirementSetId>CITY_HAS_NATIONAL_PARK_REQUREMENTS</SubjectRequirementSetId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_LR_BUILDING_LIBRARY_PRODUCTION</ModifierId>
@@ -141,26 +141,11 @@
 			<ModifierId>TRAIT_LR_BUILDING_RESEARCH_LAB_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
 		</Row>
-		<Row>
-			<ModifierId>TRAIT_LR_BUILDING_LIBRARY_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LR_BUILDING_UNIVERSITY_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LR_BUILDING_MADRASA_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LR_BUILDING_RESEARCH_LAB_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
-		</Row>
 	</Modifiers>
 
 	<ModifierArguments>
-		<Row ModifierId="TRAIT_LR_GREEN_TOURISM" Name="Amount" Type="ARGTYPE_IDENTITY" Value="6"/>
+		<Row ModifierId="TRAIT_LR_GREEN_TOURISM" Name="YieldType" Type="ARGTYPE_IDENTITY" Value="YIELD_CULTURE"/>
+		<Row ModifierId="TRAIT_LR_GREEN_TOURISM" Name="Amount" Type="ARGTYPE_IDENTITY" Value="1"/>
 		<Row ModifierId="TRAIT_LR_BUILDING_LIBRARY_PRODUCTION" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_LIBRARY"/>
 		<Row ModifierId="TRAIT_LR_BUILDING_LIBRARY_PRODUCTION" Name="Amount" Type="ARGTYPE_IDENTITY" Value="20"/>
 		<Row ModifierId="TRAIT_LR_BUILDING_UNIVERSITY_PRODUCTION" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_UNIVERSITY"/>
@@ -169,25 +154,5 @@
 		<Row ModifierId="TRAIT_LR_BUILDING_MADRASA_PRODUCTION" Name="Amount" Type="ARGTYPE_IDENTITY" Value="20"/>
 		<Row ModifierId="TRAIT_LR_BUILDING_RESEARCH_LAB_PRODUCTION" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_RESEARCH_LAB"/>
 		<Row ModifierId="TRAIT_LR_BUILDING_RESEARCH_LAB_PRODUCTION" Name="Amount" Type="ARGTYPE_IDENTITY" Value="20"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_LIBRARY_CULTURE" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_LIBRARY"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_LIBRARY_CULTURE" Name="YieldType" Type="ARGTYPE_IDENTITY" Value="YIELD_CULTURE"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_LIBRARY_CULTURE" Name="Amount" Type="ARGTYPE_IDENTITY" Value="2"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_UNIVERSITY_CULTURE" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_UNIVERSITY"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_UNIVERSITY_CULTURE" Name="YieldType" Type="ARGTYPE_IDENTITY" Value="YIELD_CULTURE"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_UNIVERSITY_CULTURE" Name="Amount" Type="ARGTYPE_IDENTITY" Value="2"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_MADRASA_CULTURE" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_MADRASA"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_MADRASA_CULTURE" Name="YieldType" Type="ARGTYPE_IDENTITY" Value="YIELD_CULTURE"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_MADRASA_CULTURE" Name="Amount" Type="ARGTYPE_IDENTITY" Value="2"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_RESEARCH_LAB_CULTURE" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_RESEARCH_LAB"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_RESEARCH_LAB_CULTURE" Name="YieldType" Type="ARGTYPE_IDENTITY" Value="YIELD_CULTURE"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_RESEARCH_LAB_CULTURE" Name="Amount" Type="ARGTYPE_IDENTITY" Value="2"/>
 	</ModifierArguments>
-
-	<RequirementSets>
-		<Row RequirementSetId="CITY_HAS_JUNGLE_REQUREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
-	</RequirementSets>
-
-	<RequirementSetRequirements>
-		<Row RequirementSetId="CITY_HAS_JUNGLE_REQUREMENTS" RequirementId="PLOT_IS_JUNGLE_REQUIREMENT" />
-	</RequirementSetRequirements>
 </GameData>

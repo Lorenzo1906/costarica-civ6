@@ -13,7 +13,7 @@
 			<Text>Green Tourism</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LR_COSTA_RICA_DESCRIPTION" Language="en_US">
-			<Text>Improved appeal of rainforesta tiles, also give +20% [ICON_Production] production towards buildings from the Campus District and each [ICON_Science] science building also provides bonus [ICON_Culture] culture</Text>
+			<Text>Rainforest providdes +1 [ICON_Culture] culture. Gives +20% [ICON_Production] production towards buildings from the Campus District.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_MORA_PORRAS_NAME" Language="en_US">
