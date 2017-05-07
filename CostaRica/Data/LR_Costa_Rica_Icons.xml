@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameData>
+<GameInfo>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_LR_COSTA_RICA_CIVILIZATIONS" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="CivCostaRica22.dds"/>
+		<Row Name="ICON_ATLAS_LR_COSTA_RICA_CIVILIZATIONS" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="CivCostaRica30.dds"/>
+		<Row Name="ICON_ATLAS_LR_COSTA_RICA_CIVILIZATIONS" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="CivCostaRica32.dds"/>
+		<Row Name="ICON_ATLAS_LR_COSTA_RICA_CIVILIZATIONS" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="CivCostaRica36.dds"/>
+		<Row Name="ICON_ATLAS_LR_COSTA_RICA_CIVILIZATIONS" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="CivCostaRica45.dds"/>
+		<Row Name="ICON_ATLAS_LR_COSTA_RICA_CIVILIZATIONS" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="CivCostaRica44.dds"/>
+		<Row Name="ICON_ATLAS_LR_COSTA_RICA_CIVILIZATIONS" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="CivCostaRica48.dds"/>
+		<Row Name="ICON_ATLAS_LR_COSTA_RICA_CIVILIZATIONS" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="CivCostaRica50.dds"/>
+		<Row Name="ICON_ATLAS_LR_COSTA_RICA_CIVILIZATIONS" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="CivCostaRica64.dds"/>
+		<Row Name="ICON_ATLAS_LR_COSTA_RICA_CIVILIZATIONS" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="CivCostaRica80.dds"/>
+		<Row Name="ICON_ATLAS_LR_COSTA_RICA_CIVILIZATIONS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="CivCostaRica256.dds"/>
+	</IconTextureAtlases>
+
 	<IconDefinitions>
 		<Row Name="ICON_BUILDING_LITTER_BOX" Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
-		<Row Name="ICON_CIVILIZATION_FELINE" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_LR_COSTA_RICA" Atlas="ICON_ATLAS_LR_COSTA_RICA_CIVILIZATIONS" Index="0"/>
 		<Row Name="ICON_LEADER_JASPER_KITTY" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
 	</IconDefinitions>
-</GameData>
+</GameInfo>

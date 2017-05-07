@@ -5,10 +5,10 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_LR_COSTA_RICA</CivilizationType>
 			<CivilizationName>LOC_CIVILIZATION_LR_COSTA_RICA_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_NORWAY</CivilizationIcon>
+			<CivilizationIcon>ICON_CIVILIZATION_LR_COSTA_RICA</CivilizationIcon>
 			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LR_COSTA_RICA_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LR_COSTA_RICA_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_FELINE</CivilizationAbilityIcon>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LR_COSTA_RICA</CivilizationAbilityIcon>
 			<LeaderType>LEADER_MORA_PORRAS</LeaderType>
 			<LeaderName>LOC_LEADER_MORA_PORRAS_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_HARDRADA</LeaderIcon>
