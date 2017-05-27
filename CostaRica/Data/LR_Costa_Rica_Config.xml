@@ -11,10 +11,10 @@
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_LR_COSTA_RICA</CivilizationAbilityIcon>
 			<LeaderType>LEADER_MORA_PORRAS</LeaderType>
 			<LeaderName>LOC_LEADER_MORA_PORRAS_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_HARDRADA</LeaderIcon>
+			<LeaderIcon>ICON_LEADER_MORA_PORRAS</LeaderIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_MORA_PORRAS_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_MORA_PORRAS_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_HARDRADA</LeaderAbilityIcon>
+			<LeaderAbilityIcon>ICON_LEADER_MORA_PORRAS</LeaderAbilityIcon>
 			<Portrait>LEADER_JASPER_KITTY_NEUTRAL</Portrait>
 		</Row>
 	</Players>
