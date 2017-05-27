@@ -13,7 +13,7 @@
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>Data/LR_Costa_Rica_Civ.xml</File><File>Data/LR_Costa_Rica_Mora_Porras.xml</File><File>Data/LR_Costa_Rica_Building.xml</File><File>Data/LR_Costa_Rica_Unit.xml</File><File>Data/LR_Costa_Rica_Improvement.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text/LR_Costa_Rica_ConfigText.xml</File><File>Text/LR_Costa_Rica_Civ_Text.xml</File><File>Text/LR_Costa_Rica_Leader_Text.xml</File></UpdateText><UpdateIcons id="Icons"><File>Data/LR_Costa_Rica_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Data/LR_Costa_Rica_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/LR_Costa_Rica_ConfigText.xml</File><File>Text/LR_Costa_Rica_Civ_Text.xml</File><File>Text/LR_Costa_Rica_Leader_Text.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Data/LR_Costa_Rica_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles"><File>Textures/CivCostaRica22.dds</File><File>Textures/CivCostaRica30.dds</File><File>Textures/CivCostaRica32.dds</File><File>Textures/CivCostaRica36.dds</File><File>Textures/CivCostaRica44.dds</File><File>Textures/CivCostaRica45.dds</File><File>Textures/CivCostaRica48.dds</File><File>Textures/CivCostaRica50.dds</File><File>Textures/CivCostaRica64.dds</File><File>Textures/CivCostaRica80.dds</File><File>Textures/CivCostaRica128.dds</File><File>Textures/CivCostaRica256.dds</File><File>Textures/CivCostaRica22.tex</File><File>Textures/CivCostaRica30.tex</File><File>Textures/CivCostaRica32.tex</File><File>Textures/CivCostaRica36.tex</File><File>Textures/CivCostaRica44.tex</File><File>Textures/CivCostaRica45.tex</File><File>Textures/CivCostaRica48.tex</File><File>Textures/CivCostaRica50.tex</File><File>Textures/CivCostaRica64.tex</File><File>Textures/CivCostaRica80.tex</File><File>Textures/CivCostaRica128.tex</File><File>Textures/CivCostaRica256.tex</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Data/LR_Costa_Rica_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/LR_Costa_Rica_ConfigText.xml</File><File>Text/LR_Costa_Rica_Civ_Text.xml</File><File>Text/LR_Costa_Rica_Leader_Text.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Data/LR_Costa_Rica_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles"><File>Textures/CivCostaRica22.dds</File><File>Textures/CivCostaRica30.dds</File><File>Textures/CivCostaRica32.dds</File><File>Textures/CivCostaRica36.dds</File><File>Textures/CivCostaRica44.dds</File><File>Textures/CivCostaRica45.dds</File><File>Textures/CivCostaRica48.dds</File><File>Textures/CivCostaRica50.dds</File><File>Textures/CivCostaRica64.dds</File><File>Textures/CivCostaRica80.dds</File><File>Textures/CivCostaRica128.dds</File><File>Textures/CivCostaRica256.dds</File><File>Textures/CivCostaRica22.tex</File><File>Textures/CivCostaRica30.tex</File><File>Textures/CivCostaRica32.tex</File><File>Textures/CivCostaRica36.tex</File><File>Textures/CivCostaRica44.tex</File><File>Textures/CivCostaRica45.tex</File><File>Textures/CivCostaRica48.tex</File><File>Textures/CivCostaRica50.tex</File><File>Textures/CivCostaRica64.tex</File><File>Textures/CivCostaRica80.tex</File><File>Textures/CivCostaRica128.tex</File><File>Textures/CivCostaRica256.tex</File><File>Textures/LeaderMoraPorras256.dds</File><File>Textures/LeaderMoraPorras32.dds</File><File>Textures/LeaderMoraPorras45.dds</File><File>Textures/LeaderMoraPorras48.dds</File><File>Textures/LeaderMoraPorras50.dds</File><File>Textures/LeaderMoraPorras55.dds</File><File>Textures/LeaderMoraPorras64.dds</File><File>Textures/LeaderMoraPorras80.dds</File><File>Textures/LeaderMoraPorras256.tex</File><File>Textures/LeaderMoraPorras32.tex</File><File>Textures/LeaderMoraPorras45.tex</File><File>Textures/LeaderMoraPorras48.tex</File><File>Textures/LeaderMoraPorras50.tex</File><File>Textures/LeaderMoraPorras55.tex</File><File>Textures/LeaderMoraPorras64.tex</File><File>Textures/LeaderMoraPorras80.tex</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>CostaRica</AssemblyName>
     <RootNamespace>CostaRica</RootNamespace>
@@ -113,6 +113,54 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\CivCostaRica80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LeaderMoraPorras80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\LR_Costa_Rica_Civ_Text.xml">
