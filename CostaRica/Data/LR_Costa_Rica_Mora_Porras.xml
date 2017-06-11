@@ -22,6 +22,14 @@
 		<Row LeaderType="LEADER_MORA_PORRAS" ReligionType="RELIGION_CATHOLICISM"/>
 	</FavoredReligions>
 
+	<LoadingInfo>
+		<Row LeaderType="LEADER_MORA_PORRAS" ForegroundImage="MoraPorrasForeground.dds" EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="0"/>
+	</LoadingInfo>
+	
+	<DiplomacyInfo>
+		<Row Type="LEADER_MORA_PORRAS" BackgroundImage="MoraPorrasDiplomacy.dds"/>
+	</DiplomacyInfo>
+	
 	<LeaderTraits>
 		<Row LeaderType="LEADER_MORA_PORRAS" TraitType="TRAIT_LEADER_LR_NATIONAL_CAMPAIGN"/>
 	</LeaderTraits>
