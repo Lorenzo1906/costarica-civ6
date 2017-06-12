@@ -15,7 +15,7 @@
 			<LeaderAbilityName>LOC_TRAIT_LEADER_MORA_PORRAS_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_MORA_PORRAS_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_MORA_PORRAS</LeaderAbilityIcon>
-			<Portrait>LEADER_JASPER_KITTY_NEUTRAL</Portrait>
+			<Portrait>MoraPorrasNeutral</Portrait>
 		</Row>
 	</Players>
 	<PlayerItems>
