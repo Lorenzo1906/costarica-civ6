@@ -11,7 +11,7 @@
 			 PlunderType="PLUNDER_GOLD"
 			 PlunderAmount="100" Buildable="true"
 			 PrereqTech="TECH_RADIO" Housing="0" TilesRequired="1"  
-			 MinimumAppeal="4" YieldFromAppeal="YIELD_GOLD"
+			 MinimumAppeal="0" YieldFromAppeal="YIELD_GOLD"
 			 TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_LR_RAINFOREST_RESORT"/>
 	</Improvements>
 	<Improvement_ValidBuildUnits>
