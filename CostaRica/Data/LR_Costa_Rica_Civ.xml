@@ -99,60 +99,47 @@
 	<TraitModifiers>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_GREEN_TOURISM</TraitType>
-			<ModifierId>TRAIT_LR_GREEN_TOURISM</ModifierId>
+			<ModifierId>TRAIT_LR_GREEN_TOURISM_JUNGLE_CULTURE</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_GREEN_TOURISM</TraitType>
-			<ModifierId>TRAIT_LR_BUILDING_LIBRARY_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_LR_GREEN_TOURISM_JUNGLE_GOLD</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_GREEN_TOURISM</TraitType>
-			<ModifierId>TRAIT_LR_BUILDING_UNIVERSITY_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_DOUBLE_ARTIST_POINTS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_GREEN_TOURISM</TraitType>
-			<ModifierId>TRAIT_LR_BUILDING_MADRASA_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_DOUBLE_MERCHANT_POINTS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_GREEN_TOURISM</TraitType>
-			<ModifierId>TRAIT_LR_BUILDING_RESEARCH_LAB_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_DOUBLE_MUSICIAN_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREEN_TOURISM</TraitType>
+			<ModifierId>TRAIT_DOUBLE_WRITER_POINTS</ModifierId>
 		</Row>
 	</TraitModifiers>
 
 	<Modifiers>
 		<Row>
-			<ModifierId>TRAIT_LR_GREEN_TOURISM</ModifierId>
+			<ModifierId>TRAIT_LR_GREEN_TOURISM_JUNGLE_CULTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_LR_BUILDING_LIBRARY_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LR_BUILDING_UNIVERSITY_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LR_BUILDING_MADRASA_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LR_BUILDING_RESEARCH_LAB_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<ModifierId>TRAIT_LR_GREEN_TOURISM_JUNGLE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 
 	<ModifierArguments>
-		<Row ModifierId="TRAIT_LR_GREEN_TOURISM" Name="YieldType" Type="ARGTYPE_IDENTITY" Value="YIELD_CULTURE"/>
-		<Row ModifierId="TRAIT_LR_GREEN_TOURISM" Name="Amount" Type="ARGTYPE_IDENTITY" Value="1"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_LIBRARY_PRODUCTION" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_LIBRARY"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_LIBRARY_PRODUCTION" Name="Amount" Type="ARGTYPE_IDENTITY" Value="20"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_UNIVERSITY_PRODUCTION" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_UNIVERSITY"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_UNIVERSITY_PRODUCTION" Name="Amount" Type="ARGTYPE_IDENTITY" Value="20"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_MADRASA_PRODUCTION" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_MADRASA"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_MADRASA_PRODUCTION" Name="Amount" Type="ARGTYPE_IDENTITY" Value="20"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_RESEARCH_LAB_PRODUCTION" Name="BuildingType" Type="ARGTYPE_IDENTITY" Value="BUILDING_RESEARCH_LAB"/>
-		<Row ModifierId="TRAIT_LR_BUILDING_RESEARCH_LAB_PRODUCTION" Name="Amount" Type="ARGTYPE_IDENTITY" Value="20"/>
+		<Row ModifierId="TRAIT_LR_GREEN_TOURISM_JUNGLE_CULTURE" Name="YieldType" Type="ARGTYPE_IDENTITY" Value="YIELD_CULTURE"/>
+		<Row ModifierId="TRAIT_LR_GREEN_TOURISM_JUNGLE_CULTURE" Name="Amount" Type="ARGTYPE_IDENTITY" Value="1"/>
+		<Row ModifierId="TRAIT_LR_GREEN_TOURISM_JUNGLE_GOLD" Name="YieldType" Type="ARGTYPE_IDENTITY" Value="YIELD_GOLD"/>
+		<Row ModifierId="TRAIT_LR_GREEN_TOURISM_JUNGLE_GOLD" Name="Amount" Type="ARGTYPE_IDENTITY" Value="1"/>
 	</ModifierArguments>
 </GameData>
