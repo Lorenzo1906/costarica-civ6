@@ -22,6 +22,12 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ArtDefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Data\LR_Costa_Rica_Building.xml">
       <SubType>Content</SubType>
     </Content>

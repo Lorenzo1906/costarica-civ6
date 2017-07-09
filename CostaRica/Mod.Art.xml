@@ -270,8 +270,11 @@
 		<Element>
 			<consumerName text="Improvements"/>
 			<relativeArtDefPaths>
+				<Element text="Improvements.artdef" />
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+				<Element text="Landmark" />
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
