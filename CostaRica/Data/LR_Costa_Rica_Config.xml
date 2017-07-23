@@ -26,7 +26,7 @@
 			<Type>UNIT_LR_ENVIROMENTALIST</Type>
 			<Name>LOC_UNIT_LR_ENVIROMENTALIST_NAME</Name>
 			<Description>LOC_UNIT_LR_ENVIROMENTALIST_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_NATURALIST</Icon>
+			<Icon>ICON_UNIT_LR_ENVIROMENTALIST</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
 		<Row>
@@ -36,7 +36,7 @@
 			<Type>IMPROVEMENT_LR_RAINFOREST_RESORT</Type>
 			<Name>LOC_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME</Name>
 			<Description>LOC_LR_RAINFOREST_RESORT_DESCRIPTION</Description>
-			<Icon>ICON_IMPROVEMENT_BEACH_RESORT</Icon>
+			<Icon>ICON_IMPROVEMENT_LR_RAINFOREST_RESORT</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>
 	</PlayerItems>
