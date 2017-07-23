@@ -2,6 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="IMPROVEMENT_LR_RAINFOREST_RESORT" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="GOSSIP_LR_RAINFOREST_RESORT_CREATED" Kind="KIND_GOSSIP"/>
 	</Types>
 	<Improvements>
 		<Row ImprovementType="IMPROVEMENT_LR_RAINFOREST_RESORT"
@@ -23,4 +24,8 @@
 	<Improvement_ValidFeatures>
 		<Row ImprovementType="IMPROVEMENT_LR_RAINFOREST_RESORT" FeatureType="FEATURE_JUNGLE"/>
 	</Improvement_ValidFeatures>
+
+	<Gossips>
+		<Row GossipType="GOSSIP_LR_RAINFOREST_RESORT_CREATED" VisibilityLevel="2" Message="LOC_GOSSIP_LR_RAINFOREST_RESORT_CREATED"/>
+	</Gossips>
 </GameData>
