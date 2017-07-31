@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<StartPosition>
+		<Replace MapName="GiantEarth" Civilization="CIVILIZATION_LR_COSTA_RICA"    X="149" Y="42" />
+		<Replace MapName="GreatestEarthMap" Civilization="CIVILIZATION_LR_COSTA_RICA"    X="18" Y="27" />
+		<!--<Replace MapName="LargestEarth" Civilization="CIVILIZATION_LR_COSTA_RICA"    X="149" Y="42" />-->
+	</StartPosition>
+</GameInfo>
