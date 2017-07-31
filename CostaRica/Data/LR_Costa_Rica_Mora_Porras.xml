@@ -27,7 +27,7 @@
 	</LoadingInfo>
 	
 	<DiplomacyInfo>
-		<Row Type="LEADER_MORA_PORRAS" BackgroundImage="MoraPorrasDiplomacy.dds"/>
+		<Row Type="LEADER_MORA_PORRAS" BackgroundImage="DiplomacyBackground.dds"/>
 	</DiplomacyInfo>
 	
 	<LeaderTraits>
