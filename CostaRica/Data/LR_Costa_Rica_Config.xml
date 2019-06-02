@@ -34,6 +34,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_MORA_PORRAS</LeaderAbilityIcon>
 			<PortraitBackground>MoraPorrasNeutral</PortraitBackground>
 		</Row>
+		<!-- Expansion 2 Support -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_LR_COSTA_RICA</CivilizationType>
+			<CivilizationName>LOC_CIVILIZATION_LR_COSTA_RICA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LR_COSTA_RICA</CivilizationIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LR_COSTA_RICA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LR_COSTA_RICA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LR_COSTA_RICA</CivilizationAbilityIcon>
+			<LeaderType>LEADER_MORA_PORRAS</LeaderType>
+			<LeaderName>LOC_LEADER_MORA_PORRAS_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_MORA_PORRAS</LeaderIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_MORA_PORRAS_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_MORA_PORRAS_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_MORA_PORRAS</LeaderAbilityIcon>
+			<PortraitBackground>MoraPorrasNeutral</PortraitBackground>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<Row>
@@ -77,10 +94,26 @@
 			<Icon>ICON_IMPROVEMENT_LR_RAINFOREST_RESORT</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>
+		<!-- Expansion 2 Support -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_LR_COSTA_RICA</CivilizationType>
+			<LeaderType>LEADER_MORA_PORRAS</LeaderType>
+			<Type>UNIT_LR_ENVIROMENTALIST</Type>
+			<Name>LOC_UNIT_LR_ENVIROMENTALIST_NAME</Name>
+			<Description>LOC_UNIT_LR_ENVIROMENTALIST_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_LR_ENVIROMENTALIST</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_LR_COSTA_RICA</CivilizationType>
+			<LeaderType>LEADER_MORA_PORRAS</LeaderType>
+			<Type>IMPROVEMENT_LR_RAINFOREST_RESORT</Type>
+			<Name>LOC_IMPROVEMENT_LR_RAINFOREST_RESORT_NAME</Name>
+			<Description>LOC_LR_RAINFOREST_RESORT_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_LR_RAINFOREST_RESORT</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
 	</PlayerItems>
-
-	<MomentIllustrations>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LR_ENVIROMENTALIST" Texture="Moment_UniqueUnit_Australia.dds"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_LR_RAINFOREST_RESORT" Texture="Moment_Infrastructure_Australia.dds"/>
-	</MomentIllustrations>
 </GameData>

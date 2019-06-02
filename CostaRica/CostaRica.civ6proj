@@ -12,7 +12,7 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>Data/LR_Costa_Rica_Civ.xml</File><File>Data/LR_Costa_Rica_Mora_Porras.xml</File><File>Data/LR_Costa_Rica_Building.xml</File><File>Data/LR_Costa_Rica_Unit.xml</File><File>Data/LR_Costa_Rica_Improvement.xml</File><File>Data/LR_Costa_Rica_Config.xml</File><File>SQL/tsl.sql</File><File>SQL/tslData.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text/LR_Costa_Rica_ConfigText.xml</File><File>Text/LR_Costa_Rica_Civ_Text.xml</File><File>Text/LR_Costa_Rica_Leader_Text.xml</File></UpdateText><UpdateIcons id="Icons"><File>Data/LR_Costa_Rica_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles"><File>Textures/MoraPorrasForeground.dds</File><File>Textures/DiplomacyBackground.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>Data/LR_Costa_Rica_Civ.xml</File><File>Data/LR_Costa_Rica_Mora_Porras.xml</File><File>Data/LR_Costa_Rica_Building.xml</File><File>Data/LR_Costa_Rica_Unit.xml</File><File>Data/LR_Costa_Rica_Improvement.xml</File><File>Data/LR_Costa_Rica_Config.xml</File><File>SQL/tsl.sql</File><File>SQL/tslData.xml</File><File priority="1">Data/LR_Costa_Rica_Expansion.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text/LR_Costa_Rica_ConfigText.xml</File><File>Text/LR_Costa_Rica_Civ_Text.xml</File><File>Text/LR_Costa_Rica_Leader_Text.xml</File><File priority="1">Text/LR_Costa_Rica_Expansion_Text.xml</File></UpdateText><UpdateIcons id="Icons"><File>Data/LR_Costa_Rica_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles"><File>Textures/MoraPorrasForeground.dds</File><File>Textures/DiplomacyBackground.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Data/LR_Costa_Rica_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/LR_Costa_Rica_ConfigText.xml</File><File>Text/LR_Costa_Rica_Civ_Text.xml</File><File>Text/LR_Costa_Rica_Leader_Text.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Data/LR_Costa_Rica_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles"><File>Textures/LeaderMoraPorras256.dds</File><File>Textures/LeaderMoraPorras32.dds</File><File>Textures/LeaderMoraPorras45.dds</File><File>Textures/LeaderMoraPorras48.dds</File><File>Textures/LeaderMoraPorras50.dds</File><File>Textures/LeaderMoraPorras55.dds</File><File>Textures/LeaderMoraPorras64.dds</File><File>Textures/LeaderMoraPorras80.dds</File><File>Textures/LeaderMoraPorras256.tex</File><File>Textures/LeaderMoraPorras32.tex</File><File>Textures/LeaderMoraPorras45.tex</File><File>Textures/LeaderMoraPorras48.tex</File><File>Textures/LeaderMoraPorras50.tex</File><File>Textures/LeaderMoraPorras55.tex</File><File>Textures/LeaderMoraPorras64.tex</File><File>Textures/LeaderMoraPorras80.tex</File><File>Textures/MoraPorrasDiplomacy.dds</File><File>Textures/MoraPorrasForeground.dds</File><File>Textures/MoraPorrasFallback.dds</File><File>Textures/MoraPorrasFallback.tex</File><File>Textures/MoraPorrasNeutral.dds</File><File>Textures/MoraPorrasNeutral.tex</File><File>Textures/CostaRicaIcon256.dds</File><File>Textures/CostaRicaIcon128.dds</File><File>Textures/CostaRicaIcon80.dds</File><File>Textures/CostaRicaIcon64.dds</File><File>Textures/CostaRicaIcon50.dds</File><File>Textures/CostaRicaIcon48.dds</File><File>Textures/CostaRicaIcon45.dds</File><File>Textures/CostaRicaIcon44.dds</File><File>Textures/CostaRicaIcon36.dds</File><File>Textures/CostaRicaIcon32.dds</File><File>Textures/CostaRicaIcon30.dds</File><File>Textures/CostaRicaIcon22.dds</File><File>Textures/CostaRicaIcon256.tex</File><File>Textures/CostaRicaIcon128.tex</File><File>Textures/CostaRicaIcon80.tex</File><File>Textures/CostaRicaIcon64.tex</File><File>Textures/CostaRicaIcon50.tex</File><File>Textures/CostaRicaIcon48.tex</File><File>Textures/CostaRicaIcon45.tex</File><File>Textures/CostaRicaIcon44.tex</File><File>Textures/CostaRicaIcon36.tex</File><File>Textures/CostaRicaIcon32.tex</File><File>Textures/CostaRicaIcon30.tex</File><File>Textures/CostaRicaIcon22.tex</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>CostaRica</AssemblyName>
@@ -40,6 +40,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\LR_Costa_Rica_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\LR_Costa_Rica_Expansion.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\LR_Costa_Rica_Icons.xml">
@@ -205,6 +208,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\LR_Costa_Rica_ConfigText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\LR_Costa_Rica_Expansion_Text.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\LR_Costa_Rica_Leader_Text.xml">

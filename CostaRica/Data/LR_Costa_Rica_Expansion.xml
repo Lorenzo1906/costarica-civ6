@@ -1,0 +1,60 @@
+<GameData>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LR_ENVIROMENTALIST" Texture="Moment_UniqueUnit_Australia.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_LR_RAINFOREST_RESORT" Texture="Moment_Infrastructure_Australia.dds"/>
+	</MomentIllustrations>
+
+	<NamedRivers>
+		<Row NamedRiverType="NAMED_LR_RIVER_COLORADO" Name="LOC_NAMED_LR_RIVER_COLORADO_NAME"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_TORTUGUERO" Name="LOC_NAMED_LR_RIVER_TORTUGUERO_NAME"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_REVENTAZON" Name="LOC_NAMED_LR_RIVER_REVENTAZON_NAME"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_PACUARE" Name="LOC_NAMED_LR_RIVER_PACUARE_NAME"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_TEMPISQUE" Name="LOC_NAMED_LR_RIVER_TEMPISQUE_NAME"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_TARCOLES" Name="LOC_NAMED_LR_RIVER_TARCOLES_NAME"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_SIERPE" Name="LOC_NAMED_LR_RIVER_SIERPE_NAME"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_TERRABA" Name="LOC_NAMED_LR_RIVER_TERRABA_NAME"/>
+	</NamedRivers>
+
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="NAMED_LR_RIVER_COLORADO" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_TORTUGUERO" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_REVENTAZON" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_PACUARE" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_TEMPISQUE" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_TARCOLES" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_SIERPE" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedRiverType="NAMED_LR_RIVER_TERRABA" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+	</NamedRiverCivilizations>
+
+	<NamedVolcanoes>
+		<Row NamedVolcanoType="NAMED_LR_ARENAL_VOLCANO" Name="Volcán Arenal"/>
+		<Row NamedVolcanoType="NAMED_LR_VIEJA_VOLCANO" Name="Volcán Rincón de la Vieja"/>
+		<Row NamedVolcanoType="NAMED_LR_POAS_VOLCANO" Name="Volcán Poás"/>
+		<Row NamedVolcanoType="NAMED_LR_IRAZU_VOLCANO" Name="Volcán Irazú"/>
+		<Row NamedVolcanoType="NAMED_LR_TURRIALBA_VOLCANO" Name="Volcán Turrialba"/>
+	</NamedVolcanoes>
+
+	<NamedVolcanoCivilizations>
+		<Row NamedVolcanoType="NAMED_LR_ARENAL_VOLCANO" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedVolcanoType="NAMED_LR_VIEJA_VOLCANO" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedVolcanoType="NAMED_LR_POAS_VOLCANO" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedVolcanoType="NAMED_LR_IRAZU_VOLCANO" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedVolcanoType="NAMED_LR_TURRIALBA_VOLCANO" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+	</NamedVolcanoCivilizations>
+
+	<NamedMountains>
+		<Row NamedMountainType="NAMED_LR_KAMUK_MOUNTAIN" Name="Cerro Kamuk"/>
+		<Row NamedMountainType="NAMED_LR_CHIRRIPO_MOUNTAIN" Name="Cerro Chirripó"/>
+		<Row NamedMountainType="NAMED_LR_PELADO_MOUNTAIN" Name="Cerro Pelado"/>
+		<Row NamedMountainType="NAMED_LR_PICO_BLANCO_MOUNTAIN" Name="Cerro Pico Blanco"/>
+		<Row NamedMountainType="NAMED_LR_MUERTE_MOUNTAIN" Name="Cerro de la Muerte"/>
+	</NamedMountains>
+
+	<NamedMountainCivilizations>
+		<Row NamedMountainType="NAMED_LR_KAMUK_MOUNTAIN" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedMountainType="NAMED_LR_CHIRRIPO_MOUNTAIN" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedMountainType="NAMED_LR_PELADO_MOUNTAIN" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedMountainType="NAMED_LR_PICO_BLANCO_MOUNTAIN" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+		<Row NamedMountainType="NAMED_LR_MUERTE_MOUNTAIN" CivilizationType="CIVILIZATION_LR_COSTA_RICA"/>
+	</NamedMountainCivilizations>
+</GameData>

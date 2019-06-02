@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Rivers -->
+		<Row Tag="LOC_NAMED_LR_RIVER_COLORADO_NAME" Language="en_US">
+			<Text>Rio Colorado</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_RIVER_TORTUGUERO_NAME" Language="en_US">
+			<Text>Rio Tortuguero</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_RIVER_REVENTAZON_NAME" Language="en_US">
+			<Text>Rio Reventazón</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_RIVER_PACUARE_NAME" Language="en_US">
+			<Text>Rio Pacuare</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_RIVER_TEMPISQUE_NAME" Language="en_US">
+			<Text>Rio Tempisque</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_RIVER_TARCOLES_NAME" Language="en_US">
+			<Text>Rio Tárcoles</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_RIVER_SIERPE_NAME" Language="en_US">
+			<Text>Rio Sierpe</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_RIVER_TERRABA_NAME" Language="en_US">
+			<Text>Rio Térraba</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_RIVER_COLORADO_NAME" Language="en_US">
+			<Text>Rio Colorado</Text>
+		</Row>
+		<!-- Volcanoes -->
+		<Row Tag="LOC_NAMED_LR_ARENAL_VOLCANO_NAME" Language="en_US">
+			<Text>Volcán Arenal</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_VIEJA_VOLCANO_NAME" Language="en_US">
+			<Text>Volcán Rincón de la Vieja</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_POAS_VOLCANO_NAME" Language="en_US">
+			<Text>Volcán Poás</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_IRAZU_VOLCANO_NAME" Language="en_US">
+			<Text>Volcán Irazú</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_TURRIALBA_VOLCANO_NAME" Language="en_US">
+			<Text>Volcán Turrialba</Text>
+		</Row>
+		<!-- Mountain -->
+		<Row Tag="LOC_NAMED_LR_KAMUK_MOUNTAIN_NAME" Language="en_US">
+			<Text>Cerro Kamuk</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_CHIRRIPO_MOUNTAIN_NAME" Language="en_US">
+			<Text>Cerro Chirripó</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_PELADO_MOUNTAIN_NAME" Language="en_US">
+			<Text>Cerro Pelado</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_PICO_BLANCO_MOUNTAIN_NAME" Language="en_US">
+			<Text>Cerro Pico Blanco</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_MUERTE_MOUNTAIN_NAME" Language="en_US">
+			<Text>Cerro de la Muerte</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
